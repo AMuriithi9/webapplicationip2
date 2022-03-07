@@ -24,3 +24,6 @@ body{
 #results{
   background-color: beige;
 }
+p{
+  font-style: italic;
+}
