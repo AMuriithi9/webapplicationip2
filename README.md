@@ -1,12 +1,12 @@
 # SPARROW
 This  is a website used to calculate when people were born and the output index tallys their Ghanian names that are aligned with the days of the week
 # About Sparrow
-Put your date of birth and findout your ghana name.
+Put your date of birth and findout your Ghanian name.
 
 
 #### List of contributors
 
--HTML FORMS
+-HTML FORM
 - CSS STYLING
 - JAVA SCRIPT
 
