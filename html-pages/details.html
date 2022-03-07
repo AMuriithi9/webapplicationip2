@@ -4,19 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Details</title>
-  
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <div class="details">
-    <ul>
-      <li>
-        <a href="index.html">web application</a>
-        <a href="details.html">submit form</a>
-      </li>
-    </ul>
+  <div class="index">
+    <a href="index.html">HOME</a>/a>
+    <a href="details.html">SUBMITFORM</a>
 
-  <form action="submit"></form>
-  
+  </div>
+  <img src="../images/images.jpeg" alt="logo of SPARROW">
+  <div class="container">
+<div class="header"> 
+<h1>SPARROW</h1>
+</div>
+<form id="form" action="/pressure.js" name="form">
+  <label for="fordate of birth">Enter your date of Birth in the format <DD>
+  <MM>
+  <YYYY></YYYY></label>
+  <input type="text" name="date" id="date" placeholder="Day">
+  <input type="text" name="month" id="month" placeholder="Month">
+  <input type="text" name="century" id="century" placeholder="Century">
+  <input type="text" name="year" id="year" placeholder="Year">
+  <br>
+    <label for="gender">Select your gender</label>
+    <input type="radio" name="gender" value="Male">FEMALE
+    <input type="radio" name="gender" value="Female">MALE
+    <br>
+  <input type="submit" value="submit">
+</form>
+  </div>
+  <div id="results"></div>
+  <script src="../JavaScript/app.js"></script>
 </body>
 </html>
